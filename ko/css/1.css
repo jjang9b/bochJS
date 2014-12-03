@@ -1,0 +1,89 @@
+﻿body {
+background: #ffffff;
+color: #696969;
+line-height: 150%;
+font-family: helvetica, serif, '나눔고딕'; 
+max-width: 43.5em;
+font-size:0.95em;
+margin: 0 0 5em 9em;
+overflow-x:hidden;
+}
+h1 code, h2 code, h3 code, h4 code{ color: inherit; font-size: inherit; }
+a { color: #696969;text-decoration : none; }
+b { color: #800000 }
+textarea{ width:550px; height:70px; }
+
+.button{
+   line-height: 320%;
+   border:1px solid #0a3c59;
+   padding:10.5px 21px;
+   border-radius:6px;
+   text-decoration: none;
+   vertical-align: middle;
+}
+
+.main{ margin:7em 0 0 0; }
+.main .menu { max-width:53em;margin:0 0 2em 0 }
+.main .menu .start .button{ border:0px;background-color:#000;color:#fff; }
+.main .menu .download .button{ border:0px;background-color:#fff;color:#000; }
+.main .menu .playground .button{ margin:0 1em 0 0;border:0px;background-color:#723;color:#fff; }
+.main .menu .stats .button{ margin:0 1em 0 0;border:0px;background-color:#cd853f;color:#fff; }
+
+.conts{ margin:5em 0 0 0; }
+.conts .result{ line-height:120%; }
+.conts code{ font-size:1.1em }
+
+.md_modern_overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background:#723;
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  /* IE 5-7 */
+  filter: alpha(opacity=70);
+  /* Safari 1.x */
+  -khtml-opacity: 0.7;
+  /* 그 외 크롬 등 */
+  opacity: 0.7;
+}
+.md_modern_msg{
+  position:absolute; width:550px; height:90px; left:50%; margin-left:-250px; top:50%; margin-top:-110px; z-index:2;
+  color:#fff;font-weight:bold;font-size:0.90em;
+  background:#723;
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  /* IE 5-7 */
+  filter: alpha(opacity=100);
+  /* Safari 1.x */
+  -khtml-opacity: 1;
+  /* 그 외 크롬 등 */
+  opacity: 1;
+}
+.md_modern_msg .msg{ margin: 20px 0 0 30px; }
+
+.version .button b{ color:#cd853f;}
+
+.guest .input { margin:2em 0 5em 0}
+.guest .input .write .w_button{ position:relative;float:left } 
+.guest .input .write .button{ background-color:#723;color:#fff;border:0px; }
+.guest .input .write .w_msg{ position:relative;float:left; } 
+.guest .input .msg{ position:relative;float:left;line-height:300%;width:250px;height:45px;
+  color:#800000;text-align:center; font-weight:bold }
+
+.guest .a_wrap{ clear:both;margin:1em 0 0 0;width:550px;border:0px;border-radius:3px; }
+.guest .a_wrap_admin{ clear:both;margin:1em 0 0 0;width:550px;background-color:#cd853f;
+  color:#fff;border-radius:3px; }
+.guest .a_wrap_my{ clear:both;margin:1em 0 0 0;width:550px;background-color:#333;
+  color:#fff;border-radius:3px; }
+.guest .a_wrap_my .button{ background-color:#fff;color:#696969;}
+.guest .article{ margin:0 0 0 1em;width:520px;white-space:pre-line; word-break:hyphenate;
+  font-size:10pt}
+.guest .article .conts{ margin:0 0 1em 0}
+
+.guest .w_paging{ margin: 2em 1em 0 1em; } 
+.guest .paging{ position:relative;float:left;width:20px; } 
+.guest .prev{ position:relative;float:left;margin: 0 1em 0 1em; } 
